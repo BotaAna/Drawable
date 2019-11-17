@@ -1,7 +1,9 @@
+package drawable;
+
 public class Rectangle implements Drawable {
 
-    int sideA;
-    int sideB;
+    int sideA = 5;
+    int sideB = 10;
 
     @Override
     public void draw() {

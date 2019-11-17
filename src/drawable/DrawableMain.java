@@ -1,3 +1,5 @@
+package drawable;
+
 public class DrawableMain {
 
     public static void main(String[] args) {
@@ -7,6 +9,8 @@ public class DrawableMain {
 
         Square square = new Square();
         square.draw();
-        
+
+        Triangle triangle = new Triangle();
+        triangle.draw();
     }
 }

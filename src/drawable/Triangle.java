@@ -1,3 +1,5 @@
+package drawable;
+
 public class Triangle implements Drawable{
 
 	@Override
